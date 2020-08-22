@@ -12,7 +12,12 @@
   // plugin variables
   var months = {
     "short": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-    "long": ["Leden", "Únor", "Březen", "Duben", "Květen", "Červen", "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"] },
+    "long_en": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "long_de": ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+    "long_cz": ["Leden", "Únor", "Březen", "Duben", "Květen", "Červen", "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"],
+    "long_ru": ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]},
+
+
       todayDate = new Date(),
       todayYear = todayDate.getFullYear(),
       todayMonth = todayDate.getMonth() + 1,
