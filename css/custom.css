@@ -638,10 +638,24 @@ box-shadow: 0px 0px 0px #fff;
 }
 
 
-.portrait-section{
+/* .portrait-section{
   color: #fff;
   max-height: 800px;
   min-height: 800px;
+
+}
+
+ */
+
+
+
+.portrait-section {
+  background-color: rgba(0,161,221,1);
+  color: #fff;
+  min-height: 800px;
+  padding-top: 100px;
+  text-align: left;
+  position: relative;
 
 }
 
@@ -653,6 +667,31 @@ box-shadow: 0px 0px 0px #fff;
   position: relative;
   bottom: 0;
 
+
+}
+
+.portrait-section a
+{
+  color: #fff;
+  text-decoration: underline;
+}
+.portrait-section .swiper-slide
+{
+  background-color: rgba(0,161,221,1);
+
+}
+.portrait-section p,
+.portrait-section h1,
+.portrait-section h2,
+.portrait-section h3,
+.portrait-section h4
+{
+  /* padding-left: 80px; */
+  color: #fff;
+}
+.portrait-section .latest
+{
+  padding-left:80px;
 
 }
 
